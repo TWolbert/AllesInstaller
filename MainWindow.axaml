@@ -5,5 +5,8 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="MyLinuxApp.MainWindow"
         Title="MyLinuxApp">
-    Welcome to Avalonia!
+	<StackPanel Margin="20">
+		<Button Click="Button_Click">Press Me!</Button>
+		<TextBlock Margin="0 10" x:Name="message">Ready...</TextBlock>
+	</StackPanel>  
 </Window>

@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/teunw/Downloads/LinuxBuildTest/MyLinuxApp/MyLinuxApp.csproj": {}
+    "E:\\repos\\TWolbert\\AllesInstaller\\MyLinuxApp.csproj": {}
   },
   "projects": {
-    "/home/teunw/Downloads/LinuxBuildTest/MyLinuxApp/MyLinuxApp.csproj": {
+    "E:\\repos\\TWolbert\\AllesInstaller\\MyLinuxApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/teunw/Downloads/LinuxBuildTest/MyLinuxApp/MyLinuxApp.csproj",
+        "projectUniqueName": "E:\\repos\\TWolbert\\AllesInstaller\\MyLinuxApp.csproj",
         "projectName": "MyLinuxApp",
-        "projectPath": "/home/teunw/Downloads/LinuxBuildTest/MyLinuxApp/MyLinuxApp.csproj",
-        "packagesPath": "/home/teunw/.nuget/packages/",
-        "outputPath": "/home/teunw/Downloads/LinuxBuildTest/MyLinuxApp/obj/",
+        "projectPath": "E:\\repos\\TWolbert\\AllesInstaller\\MyLinuxApp.csproj",
+        "packagesPath": "C:\\Users\\teunw\\.nuget\\packages\\",
+        "outputPath": "E:\\repos\\TWolbert\\AllesInstaller\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/teunw/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\teunw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/lib64/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,8 +60,6 @@
               "version": "[11.2.1, )"
             },
             "Avalonia.Diagnostics": {
-              "include": "None",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[11.2.1, )"
             },
@@ -79,31 +83,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-              "version": "[9.0.0, 9.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[9.0.0, 9.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
-              "version": "[9.0.0, 9.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
